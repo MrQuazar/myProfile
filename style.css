@@ -22,17 +22,36 @@ h2 {
   font-weight: lighter;
   font-weight: 500;
 }
-a {
+.list-navbar a {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   color: #ffffff;
   font-weight: 600;
   font-size: 16px;
+  display: block;
+  padding: 10px;
+  background-color: #e68b24;
 }
 a:hover {
   color: black;
 }
-
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.projects li {
+  display: inline;
+  padding: 10px;
+}
+.navi ul {
+  list-style-type: none;
+  margin: 0px 575px;
+  padding: 20px;
+}
+.list-navbar li {
+  float: left;
+}
 /* Custom design with class (99% of your design) */
 .container {
   width: 700px;
